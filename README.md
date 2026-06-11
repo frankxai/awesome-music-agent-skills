@@ -16,6 +16,8 @@ Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md
 - [Open Source Libraries](#open-source-libraries)
 - [APIs for Developers](#apis-for-developers)
 - [MCP Servers (Model Context Protocol)](#mcp-servers-model-context-protocol)
+- [Portable Music Agents & Skills](#portable-music-agents--skills)
+- [Music Psychology & State-Change Research](#music-psychology--state-change-research)
 - [DAW Plugins & Creative Tools](#daw-plugins--creative-tools)
 - [Datasets & Benchmarks](#datasets--benchmarks)
 - [Related Awesome Lists](#related-awesome-lists)
@@ -130,11 +132,31 @@ MCP servers let AI agents (Claude, Copilot, etc.) interact with music services t
 
 - **[youtube-music-mcp-server](https://github.com/mondweep/youtube-music-mcp-server)** — MCP server for searching and playing YouTube Music via Chrome automation; supports `search_song` and `play_song` tools.
 - **[spotify-mcp](https://github.com/varunneal/spotify-mcp)** — MCP server exposing Spotify playback controls and search to AI agents (play, pause, search, queue).
+- **[vibe-os MCP server](https://github.com/frankxai/vibe-os)** — MCP server for the vibe-os state-change music engine (`mcp-server/server.py`); 7 tools covering vibe-state listing, state/transition/custom prompt generation, frequency presets, frequency session design with WAV rendering, and session mix planning. `Python`
 - **[MCP Registry](https://github.com/modelcontextprotocol/registry)** — Official registry for discovering MCP servers across all categories including music and media.
 - **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — Reference implementations and a growing collection of community MCP servers.
 - **[MCPList.ai](https://mcplist.ai)** — Directory of verified MCP servers with music and media categories.
 
 > **Building your own?** Use the official [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) or [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) to wrap any music API as an MCP tool your agent can call.
+
+## Portable Music Agents & Skills
+
+Ready-made music agent definitions and skills you can load into Claude Projects, Custom GPTs, Gemini Gems, or any agent runtime.
+
+- **[ai-music-academy portable agents](https://github.com/frankxai/ai-music-academy)** — Music education agents at `agents/portable/`, paired with a 4-tier curriculum from first prompt to professional production.
+- **[claude-skills-library Suno skills](https://github.com/frankxai/claude-skills-library)** — Free Claude Code skills for AI music production: `suno-ai-mastery` (genre-specific Suno production patterns) and `suno-prompt-architect` (professional prompt design with style stacking).
+- **[music-intelligence-systems](https://github.com/frankxai/music-intelligence-systems)** — Hub and registry of ~30 music agents across the FrankX ecosystem; JSON schemas plus portable exports for Claude Projects, Custom GPTs, Gemini Gems, and generic system prompts. Includes Lyric Writer, Film/Sync Composer, Music Theory Teacher, and Orchestration Architect agents.
+- **[Starlight sound-intelligence vertical](https://github.com/frankxai/Starlight-Intelligence-System)** — Public reference vertical at `verticals/sound-intelligence/`: 6 sub-systems and 30 `/sound-*` commands spanning composition, production, performance, catalog, sync, and audience.
+- **[vibe-os skills](https://github.com/frankxai/vibe-os)** — State-change music skills at `skills/<name>/SKILL.md`, built on a 15-state library and frequency tools; research-backed tempo/mode/timbre parameters in portable SKILL.md format.
+
+## Music Psychology & State-Change Research
+
+Research documentation grounding music agents in published psychology and acoustics findings.
+
+- **[Frequency Healing Research](https://github.com/frankxai/vibe-os/blob/main/docs/frequency-healing-research.md)** — Evidence review of frequency-based audio (binaural beats, entrainment); separates supported effects from marketing claims.
+- **[Music Psychology Research](https://github.com/frankxai/vibe-os/blob/main/docs/music-psychology-research.md)** — Annotated research notes on tempo, mode, timbre, and lyrics effects used by the vibe-os engine.
+- **[music-intelligence-systems research](https://github.com/frankxai/music-intelligence-systems)** — Music-psychology research framework at `research/`: shared methodology plus an open-questions registry for cross-agent studies.
+- **[The Science of State-Change (whitepaper)](https://github.com/frankxai/vibe-os/blob/main/docs/whitepaper-the-science-of-state-change.md)** — vibe-os whitepaper on designing music for deliberate state change; grounds the 15-state library in cited studies.
 
 ## DAW Plugins & Creative Tools
 
