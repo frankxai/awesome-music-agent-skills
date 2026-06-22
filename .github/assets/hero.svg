@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#0a0c0f"/>
+    <stop offset="100%" stop-color="#0a0a0b"/>
+  </radialGradient>
+  <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#fbbf24"/>
+    <stop offset="100%" stop-color="#f59e0b"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softglow">
+    <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+    <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="300" fill="url(#bg)"/>
+
+<!-- 5-pointed star helper: use polygon points -->
+<!-- Star 1 (large, left) -->
+<polygon points="120,42 127,64 151,64 132,78 139,100 120,86 101,100 108,78 89,64 113,64" fill="#fbbf24" opacity="0.9" filter="url(#glow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.12;1" dur="2.8s" repeatCount="indefinite" additive="sum" transformOrigin="120 71"/>
+  <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2.8s" repeatCount="indefinite"/>
+</polygon>
+<text x="114" y="83" fill="#06b6d4" font-family="serif" font-size="14" opacity="0.8">♪</text>
+
+<!-- Star 2 (medium, upper) -->
+<polygon points="300,32 306,50 325,50 310,61 316,79 300,68 284,79 290,61 275,50 294,50" fill="#f59e0b" opacity="0.8" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.15;1" dur="3.3s" begin="0.4s" repeatCount="indefinite" additive="sum" transformOrigin="300 55"/>
+  <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.3s" begin="0.4s" repeatCount="indefinite"/>
+</polygon>
+
+<!-- Star 3 (small, scattered) -->
+<polygon points="490,55 494,68 508,68 497,76 501,89 490,81 479,89 483,76 472,68 486,68" fill="#fbbf24" opacity="0.7" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2.5s" begin="0.8s" repeatCount="indefinite" additive="sum" transformOrigin="490 72"/>
+  <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
+</polygon>
+<text x="484" y="78" fill="#06b6d4" font-family="serif" font-size="10" opacity="0.7">♫</text>
+
+<!-- Star 4 (large, upper right area) -->
+<polygon points="700,28 707,50 731,50 712,64 719,86 700,72 681,86 688,64 669,50 693,50" fill="#f59e0b" opacity="0.85" filter="url(#glow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="3.8s" begin="1.1s" repeatCount="indefinite" additive="sum" transformOrigin="700 57"/>
+  <animate attributeName="opacity" values="0.85;0.4;0.85" dur="3.8s" begin="1.1s" repeatCount="indefinite"/>
+</polygon>
+
+<!-- Star 5 (medium) -->
+<polygon points="860,48 865,62 880,62 869,71 873,85 860,76 847,85 851,71 840,62 855,62" fill="#fbbf24" opacity="0.75" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="2.9s" begin="1.5s" repeatCount="indefinite" additive="sum" transformOrigin="860 66"/>
+  <animate attributeName="opacity" values="0.75;0.25;0.75" dur="2.9s" begin="1.5s" repeatCount="indefinite"/>
+</polygon>
+<text x="854" y="72" fill="#06b6d4" font-family="serif" font-size="10" opacity="0.6">♬</text>
+
+<!-- Star 6 (small, far right) -->
+<polygon points="1020,38 1024,51 1038,51 1027,59 1031,72 1020,64 1009,72 1013,59 1002,51 1016,51" fill="#f59e0b" opacity="0.7" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.22;1" dur="2.3s" begin="0.2s" repeatCount="indefinite" additive="sum" transformOrigin="1020 55"/>
+  <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2.3s" begin="0.2s" repeatCount="indefinite"/>
+</polygon>
+
+<!-- Star 7 (large, lower area) -->
+<polygon points="200,190 208,215 235,215 213,230 221,255 200,240 179,255 187,230 165,215 192,215" fill="#fbbf24" opacity="0.6" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="4.2s" begin="0.7s" repeatCount="indefinite" additive="sum" transformOrigin="200 222"/>
+  <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.2s" begin="0.7s" repeatCount="indefinite"/>
+</polygon>
+
+<!-- Star 8 (medium, lower right) -->
+<polygon points="980,185 986,202 1004,202 990,212 995,229 980,219 965,229 970,212 956,202 974,202" fill="#f59e0b" opacity="0.65" filter="url(#softglow)">
+  <animateTransform attributeName="transform" type="scale" values="1;1.14;1" dur="3.1s" begin="1.9s" repeatCount="indefinite" additive="sum" transformOrigin="980 207"/>
+  <animate attributeName="opacity" values="0.65;0.2;0.65" dur="3.1s" begin="1.9s" repeatCount="indefinite"/>
+</polygon>
+<text x="974" y="213" fill="#06b6d4" font-family="serif" font-size="10" opacity="0.6">♪</text>
+
+<!-- Drifting notes -->
+<text x="380" y="220" fill="#06b6d4" font-family="serif" font-size="18" opacity="0.5">
+  <animateTransform attributeName="transform" type="translate" values="0,0;30,-20;0,0" dur="5s" repeatCount="indefinite"/>
+  ♫
+</text>
+<text x="620" y="240" fill="#06b6d4" font-family="serif" font-size="16" opacity="0.4">
+  <animateTransform attributeName="transform" type="translate" values="0,0;-25,-15;0,0" dur="6.5s" begin="1s" repeatCount="indefinite"/>
+  ♪
+</text>
+<text x="800" y="215" fill="#06b6d4" font-family="serif" font-size="20" opacity="0.45">
+  <animateTransform attributeName="transform" type="translate" values="0,0;20,-25;0,0" dur="4.5s" begin="2s" repeatCount="indefinite"/>
+  ♬
+</text>
+
+<!-- Title and tagline -->
+<text x="600" y="163" fill="url(#sg)" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="3" filter="url(#glow)">AWESOME MUSIC AGENT SKILLS</text>
+<text x="600" y="185" fill="#64748b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" text-anchor="middle" letter-spacing="1">Curated skills for AI music agents · Community-driven · Open source</text>
+
+<!-- Built on SIP footer -->
+<text x="24" y="283" fill="#f59e0b" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" opacity="0.8">Built on SIP</text>
+<text x="1176" y="283" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10" text-anchor="end" opacity="0.6">awesome list</text>
+</svg>

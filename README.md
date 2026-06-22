@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/hero.svg" width="100%" alt="Awesome Music Agent Skills — Curated skills for AI music agents · Community-driven · Open source"/>
+</p>
+
 # Awesome Music Agent Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of the best tools, APIs, libraries, MCP servers, and resources for building music-related AI agent skills — covering generation, analysis, transcription, stem separation, recommendation, and more.
