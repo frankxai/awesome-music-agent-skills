@@ -1,42 +1,20 @@
-# Contributing to Awesome Music Agent Skills
+# Contributing Standards
 
-Thank you for your interest in contributing! This list aims to be the best curated resource for music-related AI agent skills. Please follow these guidelines to keep the list high quality.
+We welcome contributions that align with our core thesis of **verifiable, world-healing, and rigorously-tested agent intelligence**.
 
-## What belongs here
+## The Golden Rules
 
-- **Libraries** with clear music agent use cases (Python, JS, etc.)
-- **APIs / cloud services** that can be called programmatically by an agent
-- **MCP servers** that expose music capabilities to AI agents
-- **Open-source models** for music generation, analysis, transcription, or separation
-- **Datasets & benchmarks** used to evaluate music AI models
-- **DAW plugins** with documented agent or automation APIs
+1. **No Hallucinated Tooling**: If you submit an agent skill, prompt, or tool, it must be verified to work against a real API or framework.
+2. **Safety First**: Any capability that interfaces with the physical world, live capital, or critical infrastructure must include strict human-in-the-loop approval gates.
+3. **High Signal, Low Noise**: We prefer deeply curated, opinionated lists over exhaustive link dumps. If you add a repository, explain *why* it is the best-in-class choice for that specific layer of the agent OS.
+4. **Formatting**: Ensure your Markdown is clean. If adding to a list, use the existing `<details>` structure to preserve the scannability of the README.
 
-## What doesn't belong here
+## How to Submit
 
-- Closed-source tools with no developer API
-- General-purpose audio tools with no music-specific capability
-- Outdated or unmaintained projects (last commit > 3 years ago, unless seminal)
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/amazing-new-skill`).
+3. Commit your changes (`git commit -m 'feat: Add incredible new skill'`).
+4. Push to the branch (`git push origin feature/amazing-new-skill`).
+5. Open a Pull Request.
 
-## Format
-
-Follow the existing style for each entry:
-
-```markdown
-- **[Tool Name](https://url)** — Short description of what it does and why it's useful for agents. `Language`
-```
-
-- Use `**[Name](url)**` for the link.
-- Keep descriptions to one or two sentences.
-- Add language/platform badges (e.g., `` `Python` ``, `` `JavaScript` ``) for libraries.
-- Place entries alphabetically within each section when possible.
-
-## Pull Request Process
-
-1. Fork the repo and create a feature branch.
-2. Add your entry in the correct section.
-3. Verify all links are live and correct.
-4. Open a pull request with a brief description of what you're adding and why it's a good fit.
-
-## Updating an existing entry
-
-If a tool has been significantly updated, renamed, or its URL has changed, open a PR with the correction and a note explaining the change.
+Your PR will be reviewed against our strict quality gates. We expect a high standard of engineering and documentation. Thank you for helping build the intelligence layer.
