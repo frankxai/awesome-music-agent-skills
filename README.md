@@ -129,3 +129,8 @@ Prefer licenses + local isolation before any agent wiring. Do not treat stars as
 ## Maintainer note
 
 Historical Hub-and-Spoke CTA stubs were removed on 2026-08-07. Stars and Gumroad links are not evidence. Runtime music production for Hermes lives in `agentic-music-producer-os`, not this catalog.
+
+## License
+
+[MIT](LICENSE)
+
