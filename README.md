@@ -10,6 +10,25 @@ This is an independent, **web-first** catalog. It remains useful if every FrankX
 
 Select tools by task—analysis, symbolic composition, audio generation, or packaging—and retain human review over attribution, voice use, and release.
 
+<!-- earned-skill-index:2026-08-30 -->
+
+## Earned agent skills (start here)
+
+Operators get leverage from **about 5–7 named workflows**, not bulk dumps. Hub: [https://github.com/frankxai/awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) · [earned index](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/EARNED-SKILLS.md) · [safety gate](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md).
+
+**Music agent skills**
+
+| Pack | Job |
+| --- | --- |
+| [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft) | Open music generation (MusicGen) |
+| [librosa/librosa](https://github.com/librosa/librosa) | Audio analysis / MIR |
+| [remotion-dev/skills](https://github.com/remotion-dev/skills) | Canvas / visualizers as code |
+| [black-forest-labs/skills](https://github.com/black-forest-labs/skills) | Official FLUX cover stills |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan before install |
+
+Scan with [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) before a live profile. Do not install unsigned ZIP/S3 skill blobs or OpenClaw mass dumps.
+
+
 ## Peer directories and standards
 
 [MTG/essentia](https://github.com/MTG/essentia) · [microsoft/muzic](https://github.com/microsoft/muzic)
