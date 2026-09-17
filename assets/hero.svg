@@ -1,0 +1,42 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Music Agent Skills</title>
+  <desc id="desc">Curated through the GenCreator 6-Pillar CoE lens • Starlight Swarm • Arcanea Creative Execution • Agentic Passive Income Systems</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="500">
+      <stop stop-color="#1a1a2e"/>
+      <stop offset="0.5" stop-color="#16213e"/>
+      <stop offset="1" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="200" y1="100" x2="1420" y2="420">
+      <stop stop-color="#00d4ff"/>
+      <stop offset="0.5" stop-color="#00b4d8"/>
+      <stop offset="1" stop-color="#0077b6"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <!-- Decorative elements: music notes / waves -->
+  <g opacity="0.25" stroke="url(#accent)" stroke-width="2">
+    <path d="M200 350 Q400 250 600 350 Q800 450 1000 350 Q1200 250 1400 350"/>
+    <path d="M250 300 Q450 200 650 300 Q850 400 1050 300 Q1250 200 1450 300"/>
+    <circle cx="300" cy="280" r="8" fill="#00d4ff"/>
+    <circle cx="700" cy="320" r="6" fill="#00d4ff"/>
+    <circle cx="1100" cy="280" r="7" fill="#00d4ff"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="350" cy="250" r="12" fill="#00d4ff"/>
+    <circle cx="750" cy="300" r="10" fill="#00b4d8"/>
+    <circle cx="1150" cy="260" r="11" fill="#0077b6"/>
+  </g>
+  <!-- Text -->
+  <text x="120" y="220" fill="#f0f4f8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1">Awesome Music</text>
+  <text x="122" y="285" fill="#e0e7ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">Agent Skills</text>
+  <text x="124" y="340" fill="#a5b4fc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="0">Suno • Heartmula • Agentic Music Loops • 6-Pillar Governance</text>
+  <text x="980" y="420" fill="#00d4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">| GenCreator 6-Pillar</text>
+</svg>
