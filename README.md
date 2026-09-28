@@ -111,7 +111,7 @@ Prefer licenses + local isolation before any agent wiring. Do not treat stars as
 | List | Focus |
 | --- | --- |
 | [ybayle/awesome-deep-learning-music](https://github.com/ybayle/awesome-deep-learning-music) | Academic deep learning + music |
-| [shuyaoliu/awesome-ai-music](https://github.com/shuyaoliu/awesome-ai-music) | Broader AI music links |
+| [Curated-Awesome-Lists/awesome-ai-music-generation](https://github.com/Curated-Awesome-Lists/awesome-ai-music-generation) | Broader AI music links |
 | [frankxai/awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills) | Hermes-compatible skills (optional) |
 
 ---
